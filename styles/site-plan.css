@@ -173,3 +173,31 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+#homepage1 img {
+  max-width: 30%;
+  height: auto;
+}
+#homepage2 img {
+  max-width: 30%;
+  height: auto;
+}
+#page2image1 img {
+  max-width: 20%;
+  height: auto;
+}
+#page2image2 img {
+  max-width: 20%;
+  height: auto;
+}
+#page2image3 img {
+  max-width: 20%;
+  height: auto;
+}
+#page3image1 img {
+  max-width: 20%;
+  height: auto;
+}
+#page3image2 img {
+  max-width: 20%;
+  height: auto;
+}
