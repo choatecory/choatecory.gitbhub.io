@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&display=swap');
+
+
+h1 {
+    font-family: Abril Fatface;
+}
+h2 {
+    font-family: Abril Fatface;
+}
+p {
+    font-family: Architects Daughter;
+}
+.social a {
+    text-decoration: none;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    background-color: #fcd5ce;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a {
+    text-align: center;
+    color: #660708;
+    font-family: Abril Fatface;
+    font-weight: bold;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #f8edeb;
+    color: black;
+    text-decoration: none;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.logo {
+    width: 80px;
+}
+body {
+    background-color: #f8edeb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    background-color: #fcd5ce;
+    font-family: Abril Fatface;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    font-family: Abril Fatface;
+}
+footer .social img {
+    padding-top: 15px;
+}
+h3 {
+    color: #660708;
+}
+h3 a {
+    color: #660708;
+}
+
+
+
+
+
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin-top: 50px;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+  
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+  
+input:focus, textarea:focus {
+    border-color: #000;
+}
+  
+textarea {
+    vertical-align: top;
+      height: 5em;
+}
+  
+.button {
+    padding-left: 90px;
+}
+  
+button {
+    margin-left: .5em;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
