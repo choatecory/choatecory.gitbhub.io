@@ -93,7 +93,7 @@ footer .social img {
     font-family: sans-serif;
     font-size: 40px;
     letter-spacing: 3px;
-    color: #6f7364;
+    color: #660708;
     margin: 100px 0;
     border-top: 5px double;
     border-bottom: 5px double;
@@ -115,6 +115,7 @@ footer .social img {
 .homepage2-image {
     grid-column: 2/3;
     grid-row: 7/9;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .homepage2-text {
     grid-column: 4/9;
