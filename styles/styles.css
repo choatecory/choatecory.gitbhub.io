@@ -90,7 +90,7 @@ footer .social img {
     grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .home-title{
-    font-family: sans-serif;
+    font-family: Abril Fatface;
     font-size: 40px;
     letter-spacing: 3px;
     color: #660708;
@@ -123,14 +123,74 @@ footer .social img {
 }
 
 
-
 /*Page 2 "Recipe page"*/
+.recipe-grid {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 2em;
+    max-width: 1400px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.recipe-title {
+    font-family: Abril Fatface;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #660708;
+    margin: 100px 0;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    grid-column: 2/10;
+    grid-row: 1/2;
+    justify-self: stretch;
+    text-align: center;
+}
+.chicken-image {
+    grid-column: 2/3;
+    grid-row: 2/5;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.chicken-text {
+    grid-column: 2/8;
+    grid-row: 3/4;
+    padding: 35px;
+    position: relative;
+    left: 150px;
+    bottom: -100px;
+    width: 82%;
+}
+.beef-image {
+    grid-column: 2/3;
+    grid-row: 7/10;
+}
+.beef-text {
+    grid-column: 2/8;
+    grid-row: 8/9;
+    padding: 35px;
+    position: relative;
+    left: 150px;
+    width: 82%;
+    bottom: -160px;
+}
+.pork-image {
+    grid-column: 2/4;
+    grid-row: 12/15;
+}
+.pork-text {
+    grid-column: 3/8;
+    grid-row: 13/14;
+    padding: 35px;
+    width: 124%;
+}
+.chicken-text, .beef-text, .pork-text {
+    background-color: #fcd5ce;
+    box-shadow: 5px 5px 10px #6f7364;
+    overflow-y: scroll; /* ADDED */
+    height: auto;
+    height: 250px;
+}
 
-
-
-
-
-
+/*Form page*/
 form {
     /* Center the form on the page */
     margin: 0 auto;
