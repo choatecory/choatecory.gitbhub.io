@@ -149,6 +149,7 @@ footer .social img {
     grid-column: 2/3;
     grid-row: 2/5;
     box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .chicken-text {
     grid-column: 2/8;
@@ -162,6 +163,7 @@ footer .social img {
 .beef-image {
     grid-column: 2/3;
     grid-row: 7/10;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .beef-text {
     grid-column: 2/8;
@@ -175,6 +177,7 @@ footer .social img {
 .pork-image {
     grid-column: 2/4;
     grid-row: 12/15;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .pork-text {
     grid-column: 3/8;
