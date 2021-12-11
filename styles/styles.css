@@ -259,47 +259,6 @@ button {
 }
 
 
-/*component assignment*/
-.container_component {
-    position: relative;
-    width: 50%;
-}
-.image_component {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-.middle_component {
-    transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.container_component:hover .image_component{
-    opacity: 0.3;
-}
-.container_component:hover .middle_component{
-    opacity: 1;
-}
-.text_component{
-    background-color: #fcd5ce;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-.component h2, p {
-    text-align: center;
-}
-
-
-
 
 @media screen and (max-width: 900px) {
     .home-grid {
